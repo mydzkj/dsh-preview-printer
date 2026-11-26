@@ -1,0 +1,5 @@
+# Keep line endings identical everywhere so diffs stay readable.
+* text=auto eol=lf
+
+# The manual is a binary Word file; never try to merge or convert it.
+*.docx binary

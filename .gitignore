@@ -1,0 +1,18 @@
+# Only the package files belong in the repository; everything below is either
+# generated, machine-local, or a build product.
+node_modules/
+*.log
+
+# Development tooling (harnesses, backup/restore, migration) is not part of the
+# package. It normally lives beside the package; ignore it if it ever sits inside.
+_research/
+
+# Print and conversion products the plugin writes beside a source file.
+*-print.pdf
+*-修复.*
+*-转换.*
+.dsh-print/
+
+# Release assets live outside the package: the PDF manual is uploaded to a
+# release, not committed next to its source.
+docs/*.pdf
