@@ -2,7 +2,7 @@
   "name": "dsh-preview-printer",
   "version": "0.2.0",
   "private": true,
-  "description": "Print documents, images and text from the right Sidebar preview, and rescue legacy files that the preview cannot open.",
+  "description": "Unofficial: print documents, images and text from the right Sidebar preview, and rescue legacy files the preview cannot open.",
   "type": "module",
   "license": "MIT",
   "exports": {
