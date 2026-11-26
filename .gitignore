@@ -16,3 +16,6 @@ _research/
 # Release assets live outside the package: the PDF manual is uploaded to a
 # release, not committed next to its source.
 docs/*.pdf
+
+# Credentials handed to the publish script; never commit them.
+.gh-token
