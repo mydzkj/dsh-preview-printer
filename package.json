@@ -20,8 +20,7 @@
     "README.md",
     "README.zh-CN.md",
     "LICENSE",
-    "docs/*.docx",
-    "docs/*.png"
+    "docs/*.docx"
   ],
   "dsh": {
     "bundle": {

@@ -34,14 +34,23 @@ Panel options for Office files:
 - **DOC / PPT** — the same converter, which already renders legacy formats for the preview (`doc` and `ppt` are among the preview's own extensions); page selection and DPI apply as usual.
 - **Images, Markdown, text** — no PDF at all: the browser prints the bitmap or the rendered document directly.
 
-## Screenshot
+## Screenshots
 
-![Toolbar: print button and the repaired chip](docs/screenshot-toolbar-2x.png)
+![Print panel: pages, resolution, print / save as PDF / full-speed HD](docs/screenshot-panel-docx.jpg)
 
-The printer icon in the document toolbar belongs to this plugin. The amber chip beside it means the legacy container was padded automatically; clicking it opens the repaired copy, leaving the original untouched.
-Source files print too — `.py`, `.js`, `.json`, `.bat` are laid out as monospaced text. The local path on line 8 is redacted in this screenshot.
+Pick pages and resolution, then print through the system dialog, save the same PDF beside the source, or send it straight to the default printer with Full-speed HD print.
+
+![Unsupported format: the control dims and explains why](docs/screenshot-disabled-xlsx.jpg)
+
+Unsupported formats **keep the control**: it renders dimmed and its tooltip explains where to print instead (Excel or WPS in this case), so the plugin stays visibly installed.
 
 ![Code preview with the print button](docs/screenshot-code-preview.png)
+
+Source files (`.py`, `.js`, `.json`, `.bat`) print as monospaced text; the local path on line 8 is redacted in this screenshot.
+
+![A repaired legacy doc previews and prints normally](docs/screenshot-legacy-doc.jpg)
+
+When a legacy doc/ppt container is truncated, the plugin pads it and saves a "-修复" copy; the repaired file previews and prints normally, and the original is untouched.
 ## Behaviour notes
 
 - The dialog path prints raster images; 300 DPI is crisp for worksheets on a laser printer, 400 DPI is sharper and slower. A page too large for the rasterizer's pixel ceiling steps down automatically (300 → 200 → 150).
