@@ -39,6 +39,9 @@ Panel options for Office files:
 ![Toolbar: print button and the repaired chip](docs/screenshot-toolbar-2x.png)
 
 The printer icon in the document toolbar belongs to this plugin. The amber chip beside it means the legacy container was padded automatically; clicking it opens the repaired copy, leaving the original untouched.
+Source files print too — `.py`, `.js`, `.json`, `.bat` are laid out as monospaced text. The local path on line 8 is redacted in this screenshot.
+
+![Code preview with the print button](docs/screenshot-code-preview.png)
 ## Behaviour notes
 
 - The dialog path prints raster images; 300 DPI is crisp for worksheets on a laser printer, 400 DPI is sharper and slower. A page too large for the rasterizer's pixel ceiling steps down automatically (300 → 200 → 150).
