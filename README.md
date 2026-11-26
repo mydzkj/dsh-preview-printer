@@ -1,5 +1,7 @@
 # dsh-preview-printer
 
+English | [中文](README.zh-CN.md)
+
 Print documents, images, Markdown and source text from the right Sidebar document preview — and rescue legacy files the preview cannot open.
 
 ## What it adds
