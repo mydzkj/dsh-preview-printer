@@ -66,6 +66,9 @@ The plugin makes no network requests and runs entirely on the local machine:
 - No conversation or file content is uploaded anywhere. Printing goes to the local Windows print dialog; document conversion uses the LibreOffice sidecar bundled with DSH.
 - Files are read only when you open the preview or press a control, and only from the current workspace.
 
+## Disclaimer
+
+This is a **personal project**, not an official DeepSeek plugin, and it is neither endorsed nor supported by DeepSeek. It builds on DSH's public plugin surfaces (toolbar slots, the command channel, the office-kit service); a future DSH release may change them and break the plugin, in which case updates land here. Please report problems in this repository instead of official DSH channels.
 ## License
 
 MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Qingguo Li.
