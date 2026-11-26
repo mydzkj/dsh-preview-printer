@@ -34,6 +34,11 @@ Panel options for Office files:
 - **DOC / PPT** — the same converter, which already renders legacy formats for the preview (`doc` and `ppt` are among the preview's own extensions); page selection and DPI apply as usual.
 - **Images, Markdown, text** — no PDF at all: the browser prints the bitmap or the rendered document directly.
 
+## Screenshot
+
+![Toolbar: print button and the repaired chip](docs/screenshot-toolbar-2x.png)
+
+The printer icon in the document toolbar belongs to this plugin. The amber chip beside it means the legacy container was padded automatically; clicking it opens the repaired copy, leaving the original untouched.
 ## Behaviour notes
 
 - The dialog path prints raster images; 300 DPI is crisp for worksheets on a laser printer, 400 DPI is sharper and slower. A page too large for the rasterizer's pixel ceiling steps down automatically (300 → 200 → 150).
