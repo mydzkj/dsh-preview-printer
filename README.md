@@ -88,4 +88,4 @@ The plugin makes no network requests and runs entirely on the local machine:
 This is a **personal project**, not an official DeepSeek plugin, and it is neither endorsed nor supported by DeepSeek. It builds on DSH's public plugin surfaces (toolbar slots, the command channel, the office-kit service); a future DSH release may change them and break the plugin, in which case updates land here. Please report problems in this repository instead of official DSH channels.
 ## License
 
-MIT — see [LICENSE](LICENSE). Copyright (c) 2026 Qingguo Li.
+MIT — see [LICENSE](LICENSE). Copyright (c) 2026 擎果Li (mydzkj).

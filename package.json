@@ -5,6 +5,11 @@
   "description": "Unofficial: print documents, images and text from the right Sidebar preview, and rescue legacy files the preview cannot open.",
   "type": "module",
   "license": "MIT",
+  "author": "擎果Li (mydzkj)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mydzkj/dsh-preview-printer.git"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

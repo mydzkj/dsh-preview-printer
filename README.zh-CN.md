@@ -62,7 +62,7 @@
 本项目是**个人作品**，不是 DeepSeek 官方插件，也未获得官方背书或支持。它基于 DSH 公开的插件接口（工具栏插槽、命令通道、office-kit 服务）实现；DSH 升级后接口若发生变更，插件可能失效，更新会在本仓库跟进。使用中遇到问题请在本仓库提交 Issue，不要提交给 DSH 官方渠道。
 ## 许可
 
-MIT，见 [LICENSE](LICENSE)。版权所有 (c) 2026 Qingguo Li。
+MIT，见 [LICENSE](LICENSE)。版权所有 (c) 2026 擎果Li (mydzkj)。
 
 ## 更多文档
 
