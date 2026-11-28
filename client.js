@@ -16,7 +16,7 @@ window.__ModuleLoader__.load({
     const NS = 'previewPrinter'
     const COMMAND = 'print-preview'
     /** Shown in the panel header; the harness keeps it equal to package.json. */
-    const VERSION = '0.2.1'
+    const VERSION = '0.2.2'
     const MANIFEST_MARKER = 'PREVIEW-PRINT '
     const OFFICE = /\.(pdf|docx?|pptx?)$/i
     const IMAGE = /\.(png|jpe?g|webp|bmp)$/i

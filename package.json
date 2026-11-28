@@ -1,6 +1,6 @@
 {
   "name": "dsh-preview-printer",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "description": "Unofficial: print documents, images and text from the right Sidebar preview, and rescue legacy files the preview cannot open.",
   "type": "module",
